@@ -23,14 +23,6 @@ To implement real-time features using a production-grade stack with pub/sub.
 * **Type-Safe Stack:** TypeScript and GraphQL enhance code reliability and minimize errors.
 * **Version Control:** Git enables efficient code management, collaboration, and scalability.
 
-## File Structure
-
-* Includes an ER Diagram outlining the client-server.
-![ER](final_nosql.drawio.png)
-* Includes
-![ER2](nosql-er-final.png)
-
-
 ## Working
 
 * Next.js serves as the frontend, comprising Google sign-in, a conversation sidebar, and a conversation modal. UI development involved significant efforts to ensure responsiveness and attractiveness.
@@ -88,3 +80,5 @@ To implement real-time features using a production-grade stack with pub/sub.
 
 * **Pub/Sub:** Suited for scenarios where you have multiple subscribers interested in receiving updates on certain topics or events, without requiring direct connections between publishers and subscribers. It's great for decoupling components in distributed systems.
 * **WebSockets:** Suited for scenarios where you need real-time bidirectional communication between clients and servers, such as live updates or interactive applications.
+
+Project Set Up Instructions in the READMEs of respective directories.
